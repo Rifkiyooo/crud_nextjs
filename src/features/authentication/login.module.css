@@ -1,0 +1,34 @@
+.wrapper {
+    min-height: 900px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(https://i.ibb.co/qC39pQX/bg.png);
+  }
+  
+  .form {
+    border-right: 1px solid solid light-dark(var(--mantine-color-gray-3), var(--mantine-color-dark-7));/* Ganti dengan nilai warna yang sesuai */
+    min-height: 900px;
+    max-width: 500px;
+    padding-top: 80px;
+  }
+  
+  @media (max-width: your-breakpoint-value) {
+    .form {
+      max-width: 100%;
+    }
+  }
+  
+  .title {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white)); /* Ganti dengan nilai warna yang sesuai */
+    font-family: 'Greycliff CF', sans-serif; /* Ganti dengan font yang sesuai */
+  }
+
+  .centered {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%; /* Membuat div memenuhi tinggi layar */
+  }
+  
